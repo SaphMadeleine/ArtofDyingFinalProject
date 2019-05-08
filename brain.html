@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Brain/Mental</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+    <body class="main">
+    <div class="body">
+    
+        <div id="mySidenav" class="sidenav">
+        
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          
+            <nav class="ontop">
+            <div class="dropdown">
+                <a href="index.html" class="main">Home</a>
+            </div>
+            <div class="dropdown">
+                <a href="" class="alpha">Projects by Artist</a>
+                <ul class="drop-content">
+                    <li><a href="#">Bas Jan Ader</a></li>
+                    <li><a href="#">Fani Rotimi Kayode</a></li>
+                    <li><a href="#">Felix Gonzales-Torres</a></li>
+                    <li><a href="#">Frieda Kahlo (1)</a></li>
+                    <li><a href="#">Frieda Kahlo (2)</a></li>
+                    <li><a href="#">Imogen Fox</a></li>
+                    <li><a href="#">Joel Peter Witkin</a></li>
+                    <li><a href="#">Kurt Cobain</a></li>
+                    <li><a href="#">Paul Thek</a></li>
+                    <li><a href="#">Robert Arneson</a></li>
+                    <li><a href="#">Tori Dent</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <a href="" class="shop">Projects by Body Part</a>
+                <ul class="drop-content">
+                    <li><a href="people.rit.edu/mab6722/embodied/brain.html">Brain</a></li>
+                    <li><a href="people.rit.edu/mab6722/embodied/mouth.html">Mouth</a></li>
+                    <li><a href="people.rit.edu/mab6722/embodied/heart.html">Heart</a></li>
+                    <li><a href="people.rit.edu/mab6722/embodied/immune.html">Immune System</a></li>
+                    <li><a href="people.rit.edu/mab6722/embodied/liver.html">Liver</a></li>
+                    <li><a href="people.rit.edu/mab6722/embodied/uterus.html">Uterus</a></li>
+                    <li><a href="people.rit.edu/mab6722/embodied/wrist.html">Left Wrist</a></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <a href="people.rit.edu/mab6722/embodied/about.html" class="about">About</a>
+            </div>
+          </nav>
+        </div>
+
+        <div id="main">
+          
+        <!-- Use any element to open the sidenav -->
+        <span id="navmenu" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      
+        <script>
+            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px and add a black background color to body */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+                document.body.style.backgroundColor = "rgba(105, 151, 173,1)";
+            }
+
+            /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+                document.body.style.backgroundColor = "#449fc9";
+            }
+            
+        </script>
+      
+            <h1>Brain/Mental</h1>
+            
+            
+            <h2>Bas Jan Ader</h2>
+                <iframe src="assets/Project_%20Bas%20Jan%20Ader%20.pdf" width="60%" height="500px"></iframe>
+                <h3>Project by Paul McKee</h3>
+            
+            <h2>Kurt Cobain</h2>
+                <iframe src="assets/Project_%20KurtCobainKurdtKobaneZine.pdf" classwidth="60%" height="500px"></iframe>
+                <iframe src="assets/Project_%20OutOfUteroZine.pdf" width="60%" height="500px"></iframe>
+                <h3>Project by Madeleine Baum</h3>
+            
+            
+      
+        </div>
+      
+    </div>
+    </body>
+</html>
